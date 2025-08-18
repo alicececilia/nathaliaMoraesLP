@@ -1,0 +1,43 @@
+.introducao {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.titulo-introducao {
+  font-family: Cinzel, Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 700;
+  max-width: 12ch;
+}
+
+.titulo-introducao strong {
+  font-weight: 700;
+  color: #ffb400;
+}
+
+.txt-introducao {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  max-width: 40ch;
+  padding-top: 20px;
+  color: #666;
+}
+
+.btn-introducao {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  border: none;
+  background-image: linear-gradient(180deg, #ffb400, #cc8f00);
+  padding: 12px 28px;
+  border-radius: 5px;
+  margin-top: 60px;
+  box-shadow: 2px 2px 4px #666;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #402d00;
+}

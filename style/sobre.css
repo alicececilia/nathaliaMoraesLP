@@ -1,0 +1,44 @@
+.sobre {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 160px;
+}
+
+.info-sobre {
+  position: relative;
+}
+
+.txt-sobre {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  max-width: 40ch;
+  color: #666;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.subtitulo-sobre {
+  font-family: Cinzel, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.subtitulo-sobre strong {
+  font-weight: 700;
+  color: #ffb400;
+}
+
+.info-sobre-atendimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  padding-top: 20px;
+}
+
+.info-sobre-atendimento img {
+  position: absolute;
+  left: -28px;
+}
