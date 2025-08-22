@@ -4,26 +4,31 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 160px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .info-sobre {
   position: relative;
 }
+.info-sobre img {
+  padding-bottom: 40px;
+}
 
 .txt-sobre {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  line-height: 1.4;
+  font-weight: 400;
   max-width: 40ch;
   color: #666;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 12px;
 }
 
 .subtitulo-sobre {
   font-family: Cinzel, Arial, Helvetica, sans-serif;
   font-weight: 700;
+  padding-top: 40px;
 }
 
 .subtitulo-sobre strong {

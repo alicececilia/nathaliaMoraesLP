@@ -1,0 +1,55 @@
+.tratamentos {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.subtitulo-tratamentos {
+  font-family: Cinzel, Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 60px; */
+  position: relative;
+}
+.subtitulo-tratamentos img {
+  padding-right: 8px;
+  align-items: center;
+}
+
+.subtitulo-tratamentos::before {
+  content: "";
+  display: block;
+  width: 600px;
+  height: 10px;
+  background: url(../icons/deco.svg) no-repeat center;
+  position: absolute;
+  left: 0px;
+  top: 8px;
+}
+
+.lista-tratamentos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 80px 100px;
+}
+
+.btn-tratamentos {
+  padding: 12px 28px;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(360deg, #cc8f00, #ffb400);
+  box-shadow: 2px 2px 4px rgba(66, 66, 66, 0.2);
+  font-size: 1rem;
+  color: #402d00;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0px;
+}

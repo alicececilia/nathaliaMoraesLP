@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
   padding: 0;
   background-color: #fff;
-  height: 2000px;
+  height: 3000px;
 }
 
 ul {
@@ -22,4 +22,11 @@ p {
 img {
   max-width: 100%;
   display: block;
+}
+
+blockquote {
+  margin: 0; /* remove margem padrão */
+  padding: 0; /* remove padding padrão */
+  border: none; /* tira bordas (caso algum navegador aplique) */
+  font-style: normal; /* tira o itálico padrão */
 }
